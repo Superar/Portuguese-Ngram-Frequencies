@@ -5,7 +5,9 @@ description = "N-gram frequency counts for the Portuguese language"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "conllu>=5.0.1",
     "cupy-cuda11x>=13.3.0",
+    "datasets>=3.0.0",
     "numpy==1.26.4",
     "pip>=24.2",
     "polars>=1.7.0",
