@@ -1,0 +1,17 @@
+[project]
+name = "portuguese-ngrams"
+version = "0.1.0"
+description = "N-gram frequency counts for the Portuguese language"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cupy-cuda11x>=13.3.0",
+    "numpy==1.26.4",
+    "pip>=24.2",
+    "polars>=1.7.0",
+    "setuptools>=74.1.2",
+    "spacy[transformers]>=3.4.1",
+    "tqdm>=4.66.5",
+    "wheel>=0.44.0",
+]
+
