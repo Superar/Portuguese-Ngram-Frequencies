@@ -11,9 +11,15 @@ dependencies = [
     "numpy==1.26.4",
     "pip>=24.2",
     "polars>=1.7.0",
+    "pyspark>=3.5.3",
     "setuptools>=74.1.2",
     "spacy[transformers]>=3.4.1",
     "tqdm>=4.66.5",
     "wheel>=0.44.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "isort>=5.13.2",
 ]
 
